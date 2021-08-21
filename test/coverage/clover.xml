@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1629575825057" clover="3.2.0">
+  <project timestamp="1629575825058" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="10" coveredconditionals="5" methods="2" coveredmethods="2" elements="20" coveredelements="15" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+    <file name="App.js" path="/Users/bryan_uruit/Documents/personal/ReactNativeGetStarted/src/App.js">
+      <metrics statements="8" coveredstatements="8" conditionals="10" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="4" type="stmt"/>
+      <line num="22" count="4" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="84" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
