@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "src/*"
+      ],
+      "_assets/*": [
+        "src/assets/*"
+      ],
+      "_components/*": [
+        "src/components/*"
+      ],
+      "_constants/*": [
+        "src/constants/*"
+      ],
+      "_services/*": [
+        "src/services/*"
+      ],
+      "_store/*": [
+        "src/store/*"
+      ]
+      // "_storybook/*": [
+      //   "storybook/*"
+      // ],
+    }
+  }
+}
