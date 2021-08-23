@@ -19,7 +19,10 @@
       ],
       "_store/*": [
         "src/store/*"
-      ]
+      ],
+      "_themes/*": [
+        "src/themes/*"
+      ],
       // "_storybook/*": [
       //   "storybook/*"
       // ],

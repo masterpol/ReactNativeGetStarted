@@ -1,17 +1,12 @@
 import React from 'react';
-import {
-  useColorScheme,
-  View,
-} from 'react-native';
+import Theme from '_themes';
 import Navigation from '_components/Navigation';
 
 const App = () => {
-  // const isDarkMode = useColorScheme() === 'dark';
   return (
-    <Navigation>
-      <View>
-      </View>
-    </Navigation>
+    <Theme>
+      <Navigation />
+    </Theme>
   )
 }
 
