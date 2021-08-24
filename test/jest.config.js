@@ -34,6 +34,7 @@ module.exports = {
   ],
   collectCoverageFrom: [
     'src/**/*.js',
+    '!src/components/Navigation/**',
     '!**/node_modules/**',
     '!src/**/*.stories.js',
     '!src/**/index.js',

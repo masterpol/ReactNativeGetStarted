@@ -1,17 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1629575825057" clover="3.2.0">
-  <project timestamp="1629575825058" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="10" coveredconditionals="5" methods="2" coveredmethods="2" elements="20" coveredelements="15" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
-    <file name="App.js" path="/Users/bryan_uruit/Documents/personal/ReactNativeGetStarted/src/App.js">
-      <metrics statements="8" coveredstatements="8" conditionals="10" coveredconditionals="5" methods="2" coveredmethods="2"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="21" count="4" type="stmt"/>
-      <line num="22" count="4" type="stmt"/>
-      <line num="46" count="1" type="stmt"/>
-      <line num="47" count="1" type="stmt"/>
-      <line num="49" count="1" type="stmt"/>
-      <line num="53" count="1" type="stmt"/>
-      <line num="84" count="1" type="stmt"/>
-    </file>
+<coverage generated="1629830842653" clover="3.2.0">
+  <project timestamp="1629830842653" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="15" coveredelements="15" complexity="0" loc="11" ncloc="11" packages="5" files="8" classes="8"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.js" path="/Users/bryan_uruit/Documents/personal/ReactNativeGetStarted/src/App.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Screens.Login">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Login.js" path="/Users/bryan_uruit/Documents/personal/ReactNativeGetStarted/src/components/Screens/Login/Login.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="Login.story.js" path="/Users/bryan_uruit/Documents/personal/ReactNativeGetStarted/src/components/Screens/Login/Login.story.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.Screens.Onbording">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Onbording.js" path="/Users/bryan_uruit/Documents/personal/ReactNativeGetStarted/src/components/Screens/Onbording/Onbording.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+      <file name="Onbording.story.js" path="/Users/bryan_uruit/Documents/personal/ReactNativeGetStarted/src/components/Screens/Onbording/Onbording.story.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.Screens.Signin">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Signin.js" path="/Users/bryan_uruit/Documents/personal/ReactNativeGetStarted/src/components/Screens/Signin/Signin.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="Signin.story.js" path="/Users/bryan_uruit/Documents/personal/ReactNativeGetStarted/src/components/Screens/Signin/Signin.story.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.themes">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="data.js" path="/Users/bryan_uruit/Documents/personal/ReactNativeGetStarted/src/themes/data.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

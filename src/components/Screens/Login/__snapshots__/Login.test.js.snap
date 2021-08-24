@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Screen structure should match the snapshot 1`] = `
+<View>
+  <Text>
+    Login Screen
+  </Text>
+</View>
+`;

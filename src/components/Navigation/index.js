@@ -1,10 +1,16 @@
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import React from 'react'
+import { NavigationContainer, useNavigationContainerRef } from '@react-navigation/native'
+import { useReduxDevToolsExtension } from '@react-navigation/devtools'
+import RegistrationStack from './Registration'
 
-const Navigation = (props) => {
+const Navigation = () => {
+  const navigationRef = useNavigationContainerRef()
+
+  useReduxDevToolsExtension(navigationRef);
+
   return (
-    <NavigationContainer {...props}>
-
+    <NavigationContainer ref={navigationRef}>
+      <RegistrationStack />
     </NavigationContainer>
   );
 }
