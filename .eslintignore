@@ -1,0 +1,9 @@
+android/
+ios/
+node_modules/
+package-lock.json
+package.json
+yarn.lock
+storybook/storyLoader.js
+test/coverage
+.vscode

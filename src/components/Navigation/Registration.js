@@ -1,9 +1,9 @@
 import React from 'react'
 import { createStackNavigator } from '@react-navigation/stack'
-import { 
+import {
   Login as LoginScreen,
   Signin as SigninScreen,
-  Onbording as OnbordingScreen
+  Onbording as OnbordingScreen,
 } from '_components/Screens'
 
 const { Navigator, Screen } = createStackNavigator()
@@ -15,7 +15,7 @@ const RegistrationStack = () => {
       <Screen name="Login" component={LoginScreen} />
       <Screen name="Signin" component={SigninScreen} />
     </Navigator>
-  );
+  )
 }
 
 export default RegistrationStack

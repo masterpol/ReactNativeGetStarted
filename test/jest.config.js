@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   preset: 'react-native',
@@ -17,7 +17,6 @@ module.exports = {
   },
   transformIgnorePatterns: [
     'node_modules/(?!(jest-)?@react-native|react-native|@react-native-community|@react-navigation)',
-
   ],
   modulePathIgnorePatterns: [],
   transform: {
@@ -28,9 +27,9 @@ module.exports = {
     [
       './node_modules/jest-html-reporter',
       {
-        "pageTitle": "Test Report"
-      }
-    ]
+        pageTitle: 'Test Report',
+      },
+    ],
   ],
   collectCoverageFrom: [
     'src/**/*.js',

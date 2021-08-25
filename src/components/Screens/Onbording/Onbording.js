@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { View, Text } from 'react-native'
 
 const Onbording = () => {
@@ -9,4 +9,4 @@ const Onbording = () => {
   )
 }
 
-export default Onbording;
+export default Onbording
