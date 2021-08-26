@@ -1,15 +1,21 @@
 import React from 'react'
-import Theme from '_themes'
-import Navigation from '_components/Navigation'
+import { Provider } from 'react-redux'
 import ENV from 'react-native-config'
 import { default as storybookApp } from '_storybook'
 import 'react-native-gesture-handler'
+import Theme from '_themes'
+import Navigation from '_components/Navigation'
+import configureStore from '_store/configureStore'
+
+const { store } = configureStore()
 
 const App = () => {
   return (
-    <Theme>
-      <Navigation />
-    </Theme>
+    <Provider store={store}>
+      <Theme>
+        <Navigation />
+      </Theme>
+    </Provider>
   )
 }
 
