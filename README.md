@@ -39,6 +39,7 @@ Run Storybook on either Platform `android`, `ios`:
 - [@emotion/jest](https://emotion.sh/docs/@emotion/jest)
 - [jest-html-reporter](https://www.npmjs.com/package/jest-html-reporter)
 - [redux-saga-test-plan](http://redux-saga-test-plan.jeremyfairbank.com)
+- [react-native-debugger](https://github.com/jhen0409/react-native-debugger)
 ### Assets
 - [react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer)
 

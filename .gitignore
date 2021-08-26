@@ -60,3 +60,5 @@ buck-out/
 
 # Storybook loader
 /storybook/storyLoader.js
+test-report.html
+test/coverage/*
