@@ -26,6 +26,7 @@ Run for lint:
 - [React-navigation](https://reactnavigation.org/)
 ### Components
 - [Emotion](https://emotion.sh/docs/@emotion/native)
+- [Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react-native/en/get-started/) 
 ### Testing
 - [React Native Testing Library](https://callstack.github.io/react-native-testing-library)
 - [@emotion/jest](https://emotion.sh/docs/@emotion/jest)
@@ -55,5 +56,11 @@ test
     |_
         coverage
         mocks
+storybook
 ````
+
+
+### Why Atomic Design
+As Js developer I get the need to reuse and share code created by me for that and the capability of scale project I prefer usigin this way of thinking, this project is based on Brad Frost concept of [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) and the pattern [Presentational and Container](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0).
+
 explanation on construction.
