@@ -18,7 +18,20 @@ jest.mock('react-native-reanimated', () => {
 // Silence the warning: Animated: `useNativeDriver` is not supported because the native animated module is missing
 jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper')
 
+jest.mock('global', () => ({
+  ...global,
+  WebSocket: function WebSocket() {},
+}))
+
 expect.extend(matchers)
 // expect.addSnapshotSerializer(createSerializer())
+const { JSDOM } = require('jsdom')
 
+const jsdom = new JSDOM('<!doctype html><html><body></body></html>', {
+  url: 'http://localhost',
+})
+const { window } = jsdom
+
+global.window = window
+global.document = window.document
 global.render = render

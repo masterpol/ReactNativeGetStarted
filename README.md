@@ -42,6 +42,8 @@ Run Storybook on either Platform `android`, `ios`:
 - [react-native-debugger](https://github.com/jhen0409/react-native-debugger)
 ### Assets
 - [react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer)
+### Http Client
+- [apisauce](https://github.com/infinitered/apisauce)
 
 ## Folder Architecture
 This project is base on atomic desing and module division for that is important mantain all parts of the app as detach as posible for that is proposed this separation:

@@ -1,3 +1,4 @@
+import mock from 'react-native-reanimated/mock'
 import { expectSaga } from 'redux-saga-test-plan'
 import {
   DashboardActions as Actions,
@@ -7,6 +8,12 @@ import {
 
 describe('Dashboard Sagas', () => {
   const Sagas = DashboardSagas()
+  const mockApi = {
+    getDashboard: jest.fn(() => [
+      { user_id: 'test_user_id' },
+      { user_id: 'test_user_id' },
+    ]),
+  }
 
   describe('fetchDashboard', () => {
     it('Success request', () => {
@@ -14,9 +21,14 @@ describe('Dashboard Sagas', () => {
         user_id: 'test_user_id',
       }
 
-      return expectSaga(Sagas[Types.FETCH_DASHBOARD], {}, action)
-        .call(userId => [{ userId }, { userId }], 'test_user_id')
-        .put(Actions.fetchDashboardSuccess)
+      return expectSaga(Sagas[Types.FETCH_DASHBOARD], mockApi, action)
+        .call(mockApi.getDashboard, action.user_id)
+        .put(
+          Actions.fetchDashboardSuccess([
+            { user_id: action.user_id },
+            { user_id: action.user_id },
+          ]),
+        )
         .run()
     })
   })
