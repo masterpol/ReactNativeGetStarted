@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { View, Text } from 'react-native'
 
 const Signin = () => {
@@ -6,7 +6,7 @@ const Signin = () => {
     <View>
       <Text>Signin Screen</Text>
     </View>
-  );
+  )
 }
 
-export default Signin;
+export default Signin

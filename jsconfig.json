@@ -23,9 +23,9 @@
       "_themes/*": [
         "src/themes/*"
       ],
-      // "_storybook/*": [
-      //   "storybook/*"
-      // ],
+      "_storybook/*": [
+        "storybook/*"
+      ],
     }
   }
 }

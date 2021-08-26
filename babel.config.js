@@ -11,9 +11,9 @@ module.exports = {
           _services: './src/services',
           _store: './src/store',
           _themes: './src/themes',
-          // _storybook: './storybook',
+          _storybook: './storybook',
         },
       },
     ],
-  ]
-};
+  ],
+}
