@@ -20,6 +20,9 @@ Run for get the report of coverage
 Run for lint:
 > yarn lint
 
+Run Storybook on either Platform `android`, `ios`:
+> yarn storybook:${platform}
+
 
 ## Contains
 ### Navigation
