@@ -29,13 +29,21 @@ Run Storybook on either Platform `android`, `ios`:
 - [React-navigation](https://reactnavigation.org/)
 ### Components
 - [Emotion](https://emotion.sh/docs/@emotion/native)
-- [Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react-native/en/get-started/) 
+- [Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react-native/en/get-started/)
+### Store Management
+- [Redux](https://redux.js.org/)
+- [React-redux](https://react-redux.js.org/)
+- [ReduxSauce](https://www.npmjs.com/package/reduxsauce)
 ### Testing
 - [React Native Testing Library](https://callstack.github.io/react-native-testing-library)
 - [@emotion/jest](https://emotion.sh/docs/@emotion/jest)
 - [jest-html-reporter](https://www.npmjs.com/package/jest-html-reporter)
+- [redux-saga-test-plan](http://redux-saga-test-plan.jeremyfairbank.com)
+- [react-native-debugger](https://github.com/jhen0409/react-native-debugger)
 ### Assets
 - [react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer)
+### Http Client
+- [apisauce](https://github.com/infinitered/apisauce)
 
 ## Folder Architecture
 This project is base on atomic desing and module division for that is important mantain all parts of the app as detach as posible for that is proposed this separation:
@@ -51,6 +59,7 @@ src
             Navigation
             Screens
     constants
+    hooks
     services
     store
     themes
