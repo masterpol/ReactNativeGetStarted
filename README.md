@@ -23,6 +23,10 @@ Run for lint:
 Run Storybook on either Platform `android`, `ios`:
 > yarn storybook:${platform}
 
+## Pos Installation
+### Splash screen
+on case of want to implement a good and simple bootsplash here it is a good to to do it easy and quick:
+- [react-native-bootsplash](https://github.com/zoontek/react-native-bootsplash)
 
 ## Contains
 ### Navigation
