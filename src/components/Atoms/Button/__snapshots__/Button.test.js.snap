@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Screen structure should match the snapshot for Button 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#2196f3",
+        "borderRadius": 0,
+      },
+      Object {},
+    ]
+  }
+  testID="button-test"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "paddingBottom": 10,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 10,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View />
+  </View>
+</View>
+`;
+
+exports[`Login Screen structure should match the snapshot for ButtonOrange 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ffa726",
+        "borderRadius": 0,
+      },
+      Array [
+        Object {},
+        undefined,
+      ],
+    ]
+  }
+  testID="buttonOrange-test"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "paddingBottom": 10,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 10,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View />
+  </View>
+</View>
+`;
+
+exports[`Login Screen structure should match the snapshot for ButtonRed 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#f44336",
+        "borderRadius": 0,
+      },
+      Array [
+        Object {},
+        undefined,
+      ],
+    ]
+  }
+  testID="buttonRed-test"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "paddingBottom": 10,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 10,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View />
+  </View>
+</View>
+`;
