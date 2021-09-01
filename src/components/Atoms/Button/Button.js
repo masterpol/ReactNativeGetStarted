@@ -11,7 +11,15 @@ const Container = styled.View`
   padding: 10px 20px;
 `
 
-const Button = ({ onPress, color, activeColor, children, style, round }) => {
+const Button = ({
+  onPress,
+  color,
+  activeColor,
+  children,
+  style,
+  round,
+  ...rest
+}) => {
   const theme = useTheme()
 
   color = !color ? theme.colors.primary : color
@@ -26,7 +34,8 @@ const Button = ({ onPress, color, activeColor, children, style, round }) => {
           borderRadius: round ? 10 : 0,
         },
         style,
-      ]}>
+      ]}
+      {...rest}>
       <Container>{children}</Container>
     </Pressable>
   )
@@ -44,7 +53,7 @@ Button.propTypes = {
   color: PropTypes.string,
   activeColor: PropTypes.string,
   children: PropTypes.element.isRequired,
-  style: PropTypes.object,
+  style: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   round: PropTypes.bool,
 }
 

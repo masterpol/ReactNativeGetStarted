@@ -18,28 +18,28 @@ storiesOf('Button', module)
       </Button>
     </Theme>
   ))
-  .add('Red', () => (
+  .add('ButtonRed', () => (
     <Theme>
       <ButtonRed onPress={() => Alert.alert('Button Pressed')}>
         <Text>Default text</Text>
       </ButtonRed>
     </Theme>
   ))
-  .add('Red Round', () => (
+  .add('ButtonRed Round', () => (
     <Theme>
       <ButtonRed onPress={() => Alert.alert('Button Pressed')} round={true}>
         <Text>Default text</Text>
       </ButtonRed>
     </Theme>
   ))
-  .add('Orange', () => (
+  .add('ButtonOrange', () => (
     <Theme>
       <ButtonOrange onPress={() => Alert.alert('Button Pressed')}>
         <Text>Default text</Text>
       </ButtonOrange>
     </Theme>
   ))
-  .add('Orange Roun', () => (
+  .add('ButtonOrange Roun', () => (
     <Theme>
       <ButtonOrange onPress={() => Alert.alert('Button Pressed')} round={true}>
         <Text>Default text</Text>

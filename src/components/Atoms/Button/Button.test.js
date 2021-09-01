@@ -2,6 +2,7 @@ import React from 'react'
 import { View } from 'react-native'
 import { Button, ButtonOrange, ButtonRed } from './'
 import Theme from '_themes'
+import { fireEvent } from '@testing-library/react-native'
 
 describe('Login Screen', () => {
   let props
@@ -17,7 +18,7 @@ describe('Login Screen', () => {
     it('should match the snapshot for Button', () => {
       const wrapper = render(
         <Theme>
-          <Button name="button-test" {...props} />
+          <Button testID="button-test" {...props} />
         </Theme>,
       )
       expect(wrapper).toMatchSnapshot()
@@ -26,7 +27,7 @@ describe('Login Screen', () => {
     it('should match the snapshot for ButtonOrange', () => {
       const wrapper = render(
         <Theme>
-          <ButtonOrange name="buttonOrange-test" {...props} />
+          <ButtonOrange testID="buttonOrange-test" {...props} />
         </Theme>,
       )
       expect(wrapper).toMatchSnapshot()
@@ -35,10 +36,23 @@ describe('Login Screen', () => {
     it('should match the snapshot for ButtonRed', () => {
       const wrapper = render(
         <Theme>
-          <ButtonRed name="buttonRed-test" {...props} />
+          <ButtonRed testID="buttonRed-test" {...props} />
         </Theme>,
       )
       expect(wrapper).toMatchSnapshot()
+    })
+  })
+
+  describe('actions', () => {
+    it('should call onPress action', () => {
+      const { getByTestId } = render(
+        <Theme>
+          <Button testID="buttonRed-test" {...props} />
+        </Theme>,
+      )
+
+      fireEvent.press(getByTestId('buttonRed-test'))
+      expect(props.onPress).toBeCalled()
     })
   })
 })
