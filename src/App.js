@@ -18,5 +18,5 @@ const App = () => {
     </Provider>
   )
 }
-
+console.log(JSON.parse(ENV.STORYBOOK))
 export default JSON.parse(ENV.STORYBOOK) ? storybookApp : App

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button structure should match the snapshot for H1 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#333333",
+      },
+      Array [
+        Object {
+          "fontSize": 42,
+        },
+        undefined,
+      ],
+    ]
+  }
+  testID="h1-test"
+>
+  test
+</Text>
+`;
+
+exports[`Button structure should match the snapshot for H2 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#333333",
+      },
+      Array [
+        Object {
+          "fontSize": 38,
+        },
+        undefined,
+      ],
+    ]
+  }
+  testID="h2-test"
+>
+  test
+</Text>
+`;
+
+exports[`Button structure should match the snapshot for H3 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#333333",
+      },
+      Array [
+        Object {
+          "fontSize": 32,
+        },
+        undefined,
+      ],
+    ]
+  }
+  testID="h3-test"
+>
+  test
+</Text>
+`;
+
+exports[`Button structure should match the snapshot for H4 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#333333",
+      },
+      Array [
+        Object {
+          "fontSize": 28,
+        },
+        undefined,
+      ],
+    ]
+  }
+  testID="h4-test"
+>
+  test
+</Text>
+`;
+
+exports[`Button structure should match the snapshot for H5 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#333333",
+      },
+      Array [
+        Object {
+          "fontSize": 24,
+        },
+        undefined,
+      ],
+    ]
+  }
+  testID="h5-test"
+>
+  test
+</Text>
+`;
+
+exports[`Button structure should match the snapshot for H6 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#333333",
+      },
+      Array [
+        Object {
+          "fontSize": 20,
+        },
+        undefined,
+      ],
+    ]
+  }
+  testID="h6-test"
+>
+  test
+</Text>
+`;
+
+exports[`Button structure should match the snapshot for general text 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#333333",
+      },
+      undefined,
+    ]
+  }
+  testID="text-test"
+>
+  test
+</Text>
+`;
