@@ -25,7 +25,7 @@ storiesOf('Button', module)
       </ButtonRed>
     </Theme>
   ))
-  .add('ButtonRed Round', () => (
+  .add('ButtonRed rounded', () => (
     <Theme>
       <ButtonRed onPress={() => Alert.alert('Button Pressed')} round={true}>
         <Text>Default text</Text>
@@ -39,7 +39,7 @@ storiesOf('Button', module)
       </ButtonOrange>
     </Theme>
   ))
-  .add('ButtonOrange Roun', () => (
+  .add('ButtonOrange rounded', () => (
     <Theme>
       <ButtonOrange onPress={() => Alert.alert('Button Pressed')} round={true}>
         <Text>Default text</Text>

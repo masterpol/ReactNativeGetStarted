@@ -2,7 +2,7 @@ import React from 'react'
 import { P, H1, H2, H3, H4, H5, H6 } from '.'
 import Theme from '_themes'
 
-describe('General Text', () => {
+describe('Text', () => {
   let props
 
   beforeEach(() => {

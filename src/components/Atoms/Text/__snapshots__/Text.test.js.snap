@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button structure should match the snapshot for H1 1`] = `
+exports[`Text structure should match the snapshot for H1 1`] = `
 <Text
   style={
     Array [
@@ -21,7 +21,7 @@ exports[`Button structure should match the snapshot for H1 1`] = `
 </Text>
 `;
 
-exports[`Button structure should match the snapshot for H2 1`] = `
+exports[`Text structure should match the snapshot for H2 1`] = `
 <Text
   style={
     Array [
@@ -42,7 +42,7 @@ exports[`Button structure should match the snapshot for H2 1`] = `
 </Text>
 `;
 
-exports[`Button structure should match the snapshot for H3 1`] = `
+exports[`Text structure should match the snapshot for H3 1`] = `
 <Text
   style={
     Array [
@@ -63,7 +63,7 @@ exports[`Button structure should match the snapshot for H3 1`] = `
 </Text>
 `;
 
-exports[`Button structure should match the snapshot for H4 1`] = `
+exports[`Text structure should match the snapshot for H4 1`] = `
 <Text
   style={
     Array [
@@ -84,7 +84,7 @@ exports[`Button structure should match the snapshot for H4 1`] = `
 </Text>
 `;
 
-exports[`Button structure should match the snapshot for H5 1`] = `
+exports[`Text structure should match the snapshot for H5 1`] = `
 <Text
   style={
     Array [
@@ -105,7 +105,7 @@ exports[`Button structure should match the snapshot for H5 1`] = `
 </Text>
 `;
 
-exports[`Button structure should match the snapshot for H6 1`] = `
+exports[`Text structure should match the snapshot for H6 1`] = `
 <Text
   style={
     Array [
@@ -126,7 +126,7 @@ exports[`Button structure should match the snapshot for H6 1`] = `
 </Text>
 `;
 
-exports[`Button structure should match the snapshot for general text 1`] = `
+exports[`Text structure should match the snapshot for general text 1`] = `
 <Text
   style={
     Array [

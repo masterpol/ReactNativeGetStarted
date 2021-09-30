@@ -1,5 +1,5 @@
 import styled from '@emotion/native'
-import P from './GeneralText'
+import P from './Text'
 
 export const H1 = styled(P)`
   font-size: ${({ theme }) => `${theme.sizes.h1}px`};
