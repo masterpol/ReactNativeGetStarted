@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input structure should match the snapshot for Input 1`] = `
+<TextInput
+  onChangeText={[MockFunction]}
+  placeholder="placeholder"
+  style={
+    Array [
+      Object {
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderColor": "#2196f3",
+        "borderStyle": "solid",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderWidth": 1,
+        "paddingBottom": 5,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 5,
+      },
+      undefined,
+    ]
+  }
+  testID="input-test"
+  value=""
+/>
+`;

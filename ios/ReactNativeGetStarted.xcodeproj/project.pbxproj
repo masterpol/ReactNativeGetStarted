@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		792249A02704C3EC00C69123 /* void.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922499F2704C3EC00C69123 /* void.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A445C457775437D2F325ECDE /* libPods-ReactNativeGetStarted-ReactNativeGetStartedTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B982C9C507C071342911506D /* libPods-ReactNativeGetStarted-ReactNativeGetStartedTests.a */; };
 		C8F0CDA0D810CD165F04C492 /* libPods-ReactNativeGetStarted.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B730FD588C00D1A5DF0DF31D /* libPods-ReactNativeGetStarted.a */; };
@@ -37,6 +38,8 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeGetStarted/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeGetStarted/main.m; sourceTree = "<group>"; };
 		24358C273CE81D91E75C49B0 /* Pods-ReactNativeGetStarted.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeGetStarted.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeGetStarted/Pods-ReactNativeGetStarted.debug.xcconfig"; sourceTree = "<group>"; };
+		7922499E2704C3EB00C69123 /* ReactNativeGetStarted-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeGetStarted-Bridging-Header.h"; sourceTree = "<group>"; };
+		7922499F2704C3EC00C69123 /* void.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = void.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeGetStarted/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B730FD588C00D1A5DF0DF31D /* libPods-ReactNativeGetStarted.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeGetStarted.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B982C9C507C071342911506D /* libPods-ReactNativeGetStarted-ReactNativeGetStartedTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeGetStarted-ReactNativeGetStartedTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +95,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				7922499F2704C3EC00C69123 /* void.swift */,
+				7922499E2704C3EB00C69123 /* ReactNativeGetStarted-Bridging-Header.h */,
 			);
 			name = ReactNativeGetStarted;
 			sourceTree = "<group>";
@@ -145,7 +150,6 @@
 				F77894FBE392031F6B5D89B1 /* Pods-ReactNativeGetStarted-ReactNativeGetStartedTests.debug.xcconfig */,
 				E6EF1FC5DB76CD0DBAF3A994 /* Pods-ReactNativeGetStarted-ReactNativeGetStartedTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -201,14 +205,14 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -413,6 +417,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				792249A02704C3EC00C69123 /* void.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,13 +436,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F77894FBE392031F6B5D89B1 /* Pods-ReactNativeGetStarted-ReactNativeGetStartedTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ReactNativeGetStartedTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,10 +464,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6EF1FC5DB76CD0DBAF3A994 /* Pods-ReactNativeGetStarted-ReactNativeGetStartedTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = ReactNativeGetStartedTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,6 +505,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ReactNativeGetStarted;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeGetStarted-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -523,6 +531,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ReactNativeGetStarted;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeGetStarted-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -577,7 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -635,7 +644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",

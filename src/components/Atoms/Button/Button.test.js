@@ -4,7 +4,7 @@ import { Button, ButtonOrange, ButtonRed } from './'
 import Theme from '_themes'
 import { fireEvent } from '@testing-library/react-native'
 
-describe('Login Screen', () => {
+describe('Button', () => {
   let props
 
   beforeEach(() => {

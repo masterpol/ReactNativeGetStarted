@@ -14,7 +14,8 @@
     "lint": "eslint .",
     "storybook": "start-storybook -p 7007",
     "prestorybook": "rnstl",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "reset": "watchman watch-del-all && rm -f yarn.lock && rm -rf node_modules && yarn && yarn start --reset-cache"
   },
   "dependencies": {
     "@emotion/native": "^11.0.0",
@@ -27,8 +28,9 @@
     "react": "17.0.2",
     "react-native": "0.65.1",
     "react-native-config": "^1.4.3",
+    "react-native-device-info": "^8.3.3",
     "react-native-gesture-handler": "^1.10.3",
-    "react-native-reanimated": "^2.2.0",
+    "react-native-reanimated": "2.3.0-alpha.2",
     "react-native-safe-area-context": "^3.3.0",
     "react-native-screens": "^3.5.0",
     "react-native-svg": "^12.1.1",
@@ -74,7 +76,9 @@
   },
   "config": {
     "react-native-storybook-loader": {
-      "searchDir": ["./src"],
+      "searchDir": [
+        "./src"
+      ],
       "pattern": "**/*.stories.js",
       "outputFile": "./storybook/storyLoader.js"
     }

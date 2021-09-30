@@ -35,6 +35,7 @@ const Button = ({
         },
         style,
       ]}
+      android_ripple={true}
       {...rest}>
       <Container>{children}</Container>
     </Pressable>

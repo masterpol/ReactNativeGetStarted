@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Login Screen structure should match the snapshot for Button 1`] = `
+exports[`Button structure should match the snapshot for Button 1`] = `
 <View
   accessible={true}
   collapsable={false}
@@ -45,7 +45,7 @@ exports[`Login Screen structure should match the snapshot for Button 1`] = `
 </View>
 `;
 
-exports[`Login Screen structure should match the snapshot for ButtonOrange 1`] = `
+exports[`Button structure should match the snapshot for ButtonOrange 1`] = `
 <View
   accessible={true}
   collapsable={false}
@@ -93,7 +93,7 @@ exports[`Login Screen structure should match the snapshot for ButtonOrange 1`] =
 </View>
 `;
 
-exports[`Login Screen structure should match the snapshot for ButtonRed 1`] = `
+exports[`Button structure should match the snapshot for ButtonRed 1`] = `
 <View
   accessible={true}
   collapsable={false}
