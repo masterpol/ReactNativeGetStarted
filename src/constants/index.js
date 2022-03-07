@@ -1,5 +1,2 @@
-import DIMENSIONS from './dimensions'
-
-export default {
-  DIMENSIONS,
-}
+export * from './dimensions'
+export * from './routes'
