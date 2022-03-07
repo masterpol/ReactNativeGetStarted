@@ -24,7 +24,7 @@
         "src/themes/*"
       ],
       "_storybook/*": [
-        "storybook/*"
+        ".storybook/*"
       ],
       "_utils/*": [
         "src/utils/*"
