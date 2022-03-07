@@ -1,9 +1,5 @@
 import { put, call } from 'redux-saga/effects'
-import { DashboardActions, DashboardTypes as Types } from '_store/dashboard'
-
-export const DashboardSagas = () => ({
-  [Types.FETCH_DASHBOARD]: fetchDashboard,
-})
+import { DashboardActions, DashboardTypes as Types } from './dashboardReducer'
 
 function* fetchDashboard(api, action) {
   const { user_id } = action
@@ -16,3 +12,7 @@ function* fetchDashboard(api, action) {
     yield put(DashboardActions.fetchDashboardFails('data unavailable'))
   }
 }
+
+export const DashboardSagas = () => ({
+  [Types.FETCH_DASHBOARD]: fetchDashboard,
+})

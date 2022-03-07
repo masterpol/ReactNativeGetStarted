@@ -1,7 +1,5 @@
 import React from 'react'
 import { Provider } from 'react-redux'
-import ENV from 'react-native-config'
-import { default as storybookApp } from '_storybook'
 import 'react-native-gesture-handler'
 import Theme from '_themes'
 import Navigation from '_components/Navigation'
@@ -18,5 +16,5 @@ const App = () => {
     </Provider>
   )
 }
-console.log(JSON.parse(ENV.STORYBOOK))
-export default JSON.parse(ENV.STORYBOOK) ? storybookApp : App
+
+export default App
