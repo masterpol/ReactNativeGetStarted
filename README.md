@@ -94,4 +94,15 @@ For maintain the template as clean as possible I desing the next file naming con
 
 ## Store Management
 
+The store management is simple as two sides reducer and sagas both need to be defined at respective roots.
+
+:eyes: See **store** folder.
+
+:file_folder: Store_folder:
+* `${componet_name}Reducer.js` reducer contains Types ands Actions .
+* `${componet_name}Sagas.js` sagas contains sagas provider needs to match Reducer Types.
+
+## Hooks
+This folder is used to store react hooks implementing specific logic from store and other computed data.
+
 :construction: explanation on construction :construction:.
