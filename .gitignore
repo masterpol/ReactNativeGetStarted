@@ -35,6 +35,13 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # BUCK
 buck-out/
@@ -56,8 +63,9 @@ buck-out/
 # Bundle artifact
 *.jsbundle
 
-# CocoaPods
+# Ruby / CocoaPods
 /ios/Pods/
+/vendor/bundle/
 
 # Storybook loader
 /storybook/storyLoader.js
