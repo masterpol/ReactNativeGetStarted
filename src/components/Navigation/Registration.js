@@ -1,5 +1,5 @@
 import React from 'react'
-import { createStackNavigator } from '@react-navigation/stack'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import {
   Login as LoginScreen,
   Signin as SigninScreen,
@@ -7,7 +7,7 @@ import {
 } from '_components/Screens'
 import { ROUTES } from '_constants'
 
-const { Navigator, Screen } = createStackNavigator()
+const { Navigator, Screen } = createNativeStackNavigator()
 
 const RegistrationStack = () => {
   return (
